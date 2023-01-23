@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@500&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(224, 100, 100);
+    font-family: "Source Code Pro";
+}
+
+img {
+    position: absolute;
+}
+
+#gift-image {
+    margin: 230px 10px;
+    opacity: 0.35;
+}
+
+#hat-image {
+    margin: 134px 910px;
+}
+
+#cookie-image {
+    margin: 105px 1150px;
+    opacity: 30;
+}
+
+#snowman-image {
+    margin: 277px 1050px;
+    opacity: 0.35;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: rgb(40, 40, 40);
+    font-family: "Source Code Pro";
+    font-size: 3.5rem;
+}
+
+p {
+    text-align: center;
+    color: rgb(74, 74, 74);
+}
+
+.box {
+    margin: 55px auto 55px;
+    height: 500px;
+    width: 400px;
+    background-color: rgb(63, 61, 61);
+    border-radius: 36px;
+    border: 5px solid;
+}
+
+.display {
+    margin: 15px auto 10px;
+    padding-top: 10px;
+    height: 75px;
+    width: 370px;
+    background-color: rgb(80, 142, 80);
+    border-radius: 15px;
+    border: 5px solid;
+}
+
+.keypad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    background-color: rgb(110, 110, 110);
+    cursor: pointer;
+}
+
+.buttons {
+    font-size: 2.2rem;
+    border-radius: 8px;
+    width: 85px;
+    height: 70px;
+    color: rgb(32, 20, 20);
+    background-color: rgb(161, 161, 161);
+    margin: 0px 2px;
+    font-family: "Exo";
+}
+
+.inputscr {
+    height: 16px;
+    width: 333px;
+    margin: -12px 3px;
+    padding: 4px;
+    font-size: 22px;
+    background: none;
+    border: none;
+    color: black;
+    font-family: "Exo";
+}
+.outputscr {
+    font-size: 44px;
+    height: 32px;
+    width: 350px;
+    margin: 9px 4px;
+    padding: 4px;
+    text-align: end;
+    background: none;
+    border: none;
+    color: black;
+    font-family: "Exo";
+}
